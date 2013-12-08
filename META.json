@@ -53,5 +53,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/akiym/Mac-Keyboard-LED/issues"
+      },
+      "homepage" : "https://github.com/akiym/Mac-Keyboard-LED",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/akiym/Mac-Keyboard-LED.git",
+         "web" : "https://github.com/akiym/Mac-Keyboard-LED"
+      }
+   },
    "version" : "0.01"
 }

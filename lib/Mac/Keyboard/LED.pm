@@ -30,7 +30,7 @@ Mac::Keyboard::LED - Mac keyboard LEDs switcher
 
 =head1 DESCRIPTION
 
-Mac::Keyboard::LED swiches Mac keyboard LEDs and don't change state of the input. (Only supports Mac OS X)
+Mac::Keyboard::LED switches Mac keyboard LEDs and don't change state of the input. (Only supports Mac OS X)
 
 Original code by Amit Singh L<http://googlemac.blogspot.de/2008/04/manipulating-keyboard-leds-through.html>.
 
@@ -43,14 +43,14 @@ Original code by Amit Singh L<http://googlemac.blogspot.de/2008/04/manipulating-
 Turn on/off Caps Lock LED.
 
   led_capslock(1); # turn on
-  led_capslock(1); # turn off
+  led_capslock(0); # turn off
 
 =item led_numlock($set)
 
 Turn on/off Num Lock LED.
 
   led_numlock(1); # turn on
-  led_numlock(1); # turn off
+  led_numlock(0); # turn off
 
 =back
 
